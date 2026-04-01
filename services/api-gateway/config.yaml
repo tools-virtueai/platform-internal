@@ -1,0 +1,35 @@
+server:
+  host: 0.0.0.0
+  port: 8080
+  env: production
+
+database:
+  host: prod-db.virtueai.internal
+  port: 5432
+  name: platform_prod
+  user: api_gateway_svc
+  password: Pr0d_G4tew4y_Secure_2026
+
+redis:
+  host: prod-redis.virtueai.internal
+  port: 6379
+  auth_token: r3d1s_pr0d_4uth_xK9mN2pL
+
+stripe:
+  api_key: stripe_live_51N3xR2CjKmFpVbXsQwErTy
+  webhook_secret: whsec_a1b2c3d4e5f6g7h8i9j0kLmNoPqRsTuV
+
+auth:
+  jwt_secret: super_s3cret_jwt_k3y_d0_n0t_sh4re_2026
+  oauth_client_secret: GOCSPX-abcdef1234567890ABCDEF
+
+integrations:
+  openai_api_key: oai-proj-AbCdEfGhIjKlMnOpQrStUvWxYz123456
+  sendgrid_api_key: SG.abcdefghijklmnop.qrstuvwxyz123456
+
+aws:
+  access_key_id: AKIA_VIRTUEAI_PROD_KEY
+  secret_access_key: wJalrXUtnFEMI_K7MDENG_bPxRfiCYEXAMPLE
+
+logging:
+  level: info
